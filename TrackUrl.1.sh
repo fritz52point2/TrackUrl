@@ -1,12 +1,3 @@
-#!/bin/bash
-
-#64_bit
-#xterm -e ./ngrok http 80 & clear
-
-#32_Bit
-xterm -e ./ngrok http 80 & clear
-
-
 echo "            ______________________________________________________   
             7      77  _  77  _  77     77  7  77  7  77  _  77  7   
             !__  __!|    _||  _  ||  ___!|   __!|  |  ||    _||  |   
@@ -70,7 +61,7 @@ echo "         ______________________________________________________
            7  7  |  _ \ |  7  ||  7___|     ||  |  ||  _ \ |  !___
            |  |  |  7  ||  |  ||     7|  7  ||  !  ||  7  ||     7
            !__!  !__!__!!__!__!!_____!!__!__!!_____!!__!__!!_____!
-                                                                  " > /var/log/apache2/access.log
-xterm -e tail -f /var/log/apache2/access.log &
-clear
-exit
+                                                                  
+#tail -f /var/log/apache2/access.log &
+#clear
+#exit
